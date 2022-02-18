@@ -1,0 +1,6 @@
+>>>>>>>>>>>>>>>>>>>>>>> GITHUB >>>>>>>>>>>>>>>>>>>>>>> 
+
+-> O Github permite que você crie um repositório Git remoto, possibilitando que outras pessoas possam clonar esse repositório localmente, 
+   realizar alterações e enviar essas alterações de volta para o repositório remoto.
+
+-> Crie sua conta no github: https://github.com/

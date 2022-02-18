@@ -1,0 +1,42 @@
+>>>>>>>>>>>>>>>>>>>>>>>  O QUE É >>>>>>>>>>>>>>>>>>>>>>> 
+
+-> Por definição, o Git é um Sistema de Controle de Versão Distribuído. Ele foi criado por Linus Torvalds, que é mais conhecido por outra criação, o Linux.
+	
+-> O Git registra as mudanças que ocorrem no código-fonte de um projeto. Logo, permite que os arquivos sejam alterados de forma simultânea, por inúmeras pessoas,
+   sem a preocupação que essas alterações sejam sobrescritas umas pelas outras.
+
+-> Devido a essa funcionalidade, caso haja algum problema em uma alteração do código-fonte, é possível restaurar à versão anterior de forma fácil e rápida.
+
+-> O Git é essencial em quase todos os projetos realizados em equipes que geralmente trabalham em paralelo. Isso porque ele evita que haja conflitos entre 
+   as alterações realizadas.
+
+>>>>>>>>>>>>>>>>>>>>>>> BENEFÍFICOS DO GIT >>>>>>>>>>>>>>>>>>>>>>> 
+
+-> Controle da versão
+-> Armazenamento em nuvem
+-> Trabalho em equipe
+
+>>>>>>>>>>>>>>>>>>>>>>> FUNCIONAMENTO >>>>>>>>>>>>>>>>>>>>>>> 
+
+-> O git possui um SHA (Secure Hash Algorithm), que é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+-> A encriptação pelo SHA gera um conjunto de caracteres identificadores de 40 dígitos.
+
+>>>>>>>>>>>>>>>>>>>>>>>  OBJETOS INTERNOS >>>>>>>>>>>>>>>>>>>>>>> 
+
+-> Blob: São apenas conteúdos - fluxos binários de dados. Um blob não registra sua data de criação, seu nome ou nada além de seu conteúdo.
+         Cada blob em gité identificado por seu hash SHA-1 . Os hashes SHA-1 consistem em 20 bytes, geralmente representados por 40 caracteres
+         em formato hexadecimal. Ao longo desta postagem, às vezes mostraremos apenas os primeiros caracteres desse hash.
+
+-> Tree: Uma árvore é basicamente uma lista de diretórios, referindo-se a blobs e também a outras árvores . As árvores também são identificadas por seus hashes SHA-1.
+         A referência a esses objetos, seja blobs ou outras árvores , acontece por meio do hash SHA-1 dos objetos.
+
+-> Commits: Em git, um instantâneo da arvore de trabalho é um commit.
+
+>>>>>>>>>>>>>>>>>>>>>>> SSH >>>>>>>>>>>>>>>>>>>>>>> 
+
+-> É uma forma de estabelecer uma conexão segura  entre duas máquinas. Haverá duas chaves, uma pública e uma privada.
+
+>>>>>>>>>>>>>>>>>>>>>>> TRACKED e UNTRACKED >>>>>>>>>>>>>>>>>>>>>>> 
+
+-> Tracked: Arquivos conhecidos pelo git.
+-> Untracked: Arquivos desconhecidos pelo git.
